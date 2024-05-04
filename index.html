@@ -24,7 +24,9 @@
             </li>
         </ul>
         <ul class="nav-ul-title">
-            <li> Glamping BubbleSky</li>
+            <header>
+                <h1 class="sub__title">Glamping BubbleSky El Retiro</h1>
+            </header>
         </ul>
         <ul class="nav-ul">
             <li><a href="#presentation">Quienes somos</a></li>
@@ -36,23 +38,26 @@
     </nav>
 </head>
 <body>
-    <header>
-        <h1 class="sub__title">Nombre de hotel</h1>
-    </header>
+   
 
-    <section id="presentation">
+    <section id="presentation" class="presentation">
         <h2 class="sub__title">Presentación</h2>
-        <!-- Add presentation content here -->
+        <div class="presentation-content">
+            <p>Glamping BubbleSky es un lugar donde podrás disfrutar de la naturaleza y la comodidad en un solo lugar. Con una vista panorámica de las estrellas, podrás disfrutar de una noche inolvidable en nuestras burbujas transparentes. Además, podrás disfrutar de un delicioso desayuno y masajes en pareja. ¡Reserva ya!</p>
+        </div>
     </section>
 
-    <section id="description">
+    <section id="description" class="presentation">
         <h3 class="sub__title">Descripción</h3>
-        <!-- Add description content here -->
+        <div class="presentation-content">
+            <p>Glamping BubbleSky es un lugar donde podrás disfrutar de la naturaleza y la comodidad en un solo lugar. Con una vista panorámica de las estrellas, podrás disfrutar de una noche inolvidable en nuestras burbujas transparentes. Además, podrás disfrutar de un delicioso desayuno y masajes en pareja. ¡Reserva ya!</p>
+        </div>
     </section>
 
-    <section id="location">
+    <section id="location" class="location">
         <h3 class="sub__title">Ubicación</h3>
-        <!-- Add location content here -->
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.8281675321323!2d-75.48656197751306!3d6.361593151007215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1714832268404!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <section id="photos">
@@ -60,17 +65,17 @@
         <!-- Add photos content here -->
     </section>
 
-    <h2 class="sub__title">Tipos de glamping</h2>
+    <h2 id="rooms" class="sub__title">Tipos de glamping</h2>
     <div class="content__cards">
             <div class="cards">
                 <article class="card">
                     <div class="card__preview">
-                        <img src="assets/img/principal.jpg" alt="Room 1" >
+                        <img src="assets/img/habitacion1.jpeg" alt="Room 1" >
                         <div class="card__price">$450,000</div>
                     </div>
                     <div class="card__content">
-                        <h2 class="card__title">Nombre de habitación</h2>
-                        <p class="card__description">Descripción de la habitación</p>
+                        <h2 class="card__title">Bubble 1 Zen</h2>
+                        <p class="card__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <div class="card__bottom">
                             <div class="card__properties">
                                 1 cama doble | yacuzzi | wifi | 1 baño
@@ -89,12 +94,12 @@
 
                 <article class="card">
                     <div class="card__preview">
-                        <img src="assets/img/img.jpg" alt="Room 1">
+                        <img src="assets/img/habitacion2.jpeg" alt="Room 1">
                         <div class="card__price">$250,000</div>
                     </div>
                     <div class="card__content">
-                        <h2 class="card__title">Nombre de habitación</h2>
-                        <p class="card__description">Descripción de la habitación</p>
+                        <h2 class="card__title">Bubble 3 Forest</h2>
+                        <p class="card__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <div class="card__bottom">
                             <div class="card__properties">
                                 1 cama doble | yacuzzi | wifi | 1 baño
@@ -113,12 +118,12 @@
 
                 <article class="card">
                     <div class="card__preview">
-                        <img src="assets/img/img.jpg" alt="Room 1">
+                        <img src="assets/img/habitacion3.jpeg" alt="Room 1">
                         <div class="card__price">$300,000</div>
                     </div>
                     <div class="card__content">
-                        <h2 class="card__title">Nombre de habitación</h2>
-                        <p class="card__description">Descripción de la habitación</p>
+                        <h2 class="card__title">Bubble 4 Dream</h2>
+                        <p class="card__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <div class="card__bottom">
                             <div class="card__properties">
                                 1 cama doble | yacuzzi | wifi | 1 baño
@@ -137,17 +142,19 @@
 
             </div>
         </div>
-        <h2 class="sub__title">Servicios adicionales</h2>
+         
+        <h2 id="additional-services" class="sub__title">Servicios adicionales</h2>
+         
         <div class="content__cards">
             <div class="cards">
                 <article class="card">
                     <div class="card__preview">
-                        <img src="assets/img/img.jpg" alt="Room 1">
+                        <img src="assets/img/desayuno.jpeg" alt="Room 1">
                         <div class="card__price">$90,000</div>
                     </div>
                     <div class="card__content">
                         <h2 class="card__title">Desayuno</h2>
-                        <p class="card__description">Descripción de la habitación</p>
+                        <p class="card__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <div class="card__bottom">
                             <div class="card__properties">
                                 Desayuno completo
@@ -166,12 +173,12 @@
 
                 <article class="card">
                     <div class="card__preview">
-                        <img src="assets/img/img.jpg" alt="Room 1">
+                        <img src="assets/img/masajes.jpeg" alt="Room 1">
                         <div class="card__price">$110,000</div>
                     </div>
                     <div class="card__content">
                         <h2 class="card__title">masajes en pareja</h2>
-                        <p class="card__description">Descripción de la habitación</p>
+                        <p class="card__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <div class="card__bottom">
                             <div class="card__properties">
                                 2 personas | 1 hora | 1 masajista
@@ -191,8 +198,10 @@
         </div>
 
     <section id="reservation-form">
+        
         <h2 class="sub__title">Formulario de reserva</h2>
-            <div class="centering">
+            
+        <div class="centering">
                 <div class="box">
                     <form>
                         <div class="principal_container">
@@ -231,9 +240,9 @@
                                     <label for="tipoHabitacion" class="input__label">Tipo de habitación:</label>
                                     <select id="tipoHabitacion" name="tipoHabitacion" class="input_field" onchange="actualizarValorHabitacion()">
                                     <option value="undefined">Seleccione una opción</option>
-                                    <option value="habitacion1">Habitación 1</option>
-                                    <option value="habitacion2">Habitación 2</option>
-                                    <option value="habitacion3">Habitación 3</option>
+                                    <option value="habitacion1">Bubble 1 Zen</option>
+                                    <option value="habitacion2">Bubble 3 Forest</option>
+                                    <option value="habitacion3">Bubble 4 Dream</option>
                                     </select>
                                 </div>
 
@@ -267,8 +276,8 @@
                                     <label for="servicioAdicional1" class="input__label">Servicio adicional 1:</label>
                                     <select id="servicioAdicional1" name="servicioAdicional1" class="input_field" onchange="actualizarValorServicioAdicional1()">
                                         <option value="undefined">Seleccione una opción</option>
-                                    <option value="servicio1">Servicio 1</option>
-                                    <option value="servicio2">Servicio 2</option>
+                                    <option value="servicio1">Desayuno</option>
+                                    <option value="servicio2">Masajes</option>
                                     </select>
                                 </div>
 
@@ -281,8 +290,8 @@
                                     <label for="servicioAdicional2" class="input__label">Servicio adicional 2:</label>
                                     <select id="servicioAdicional2" name="servicioAdicional2" class="input_field" onchange="actualizarValorServicioAdicional2()">
                                     <option value="undefined">Seleccione una opción</option>
-                                    <option value="servicio1">Servicio 1</option>
-                                    <option value="servicio2">Servicio 2</option>
+                                    <option value="servicio1">Desayuno</option>
+                                    <option value="servicio2">Masajes</option>
                                     </select>
                                 </div>
 
