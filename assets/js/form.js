@@ -75,13 +75,13 @@ function actualizarValorHabitacion() {
     let valorHabitacion;
     switch (tipoHabitacion) {
         case "habitacion1":
-            valorHabitacion = 100;
+            valorHabitacion = 450000;
             break;
         case "habitacion2":
-            valorHabitacion = 150;
+            valorHabitacion = 250000;
             break;
         case "habitacion3":
-            valorHabitacion = 200;
+            valorHabitacion = 300000;
             break;
         default:
             alert("Por favor, seleccione una habitación.");
@@ -156,10 +156,10 @@ function actualizarValorServicioAdicional1() {
     let valorServicio;
     switch (servicioSeleccionado) {
         case "servicio1":
-            valorServicio = 50;
+            valorServicio = 90000;
             break;
         case "servicio2":
-            valorServicio = 75;
+            valorServicio = 110000;
             break;
         default:
             valorServicio = 0;
@@ -176,10 +176,10 @@ function actualizarValorServicioAdicional2() {
     let valorServicio;
     switch (servicioSeleccionado) {
         case "servicio1":
-            valorServicio = 60;
+            valorServicio = 90000;
             break;
         case "servicio2":
-            valorServicio = 80;
+            valorServicio = 110000;
             break;
         default:
             valorServicio = 0;
