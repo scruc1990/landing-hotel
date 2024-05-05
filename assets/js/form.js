@@ -69,21 +69,26 @@ function validarTipoHabitacion(select) {
 
 // Valor habitación: se muestra dependiendo del tipo de habitación que se seleccione
 function actualizarValorHabitacion() {
+    let imagen = document.getElementById("imagen");
     let tipoHabitacion = document.getElementById("tipoHabitacion").value;
     let valorHabitacionInput = document.getElementById("valorHabitacion");
 
     let valorHabitacion;
     switch (tipoHabitacion) {
         case "habitacion1":
+            imagen.src = "assets/img/habitacion1.jpeg";
             valorHabitacion = 450000;
             break;
         case "habitacion2":
+            imagen.src = "assets/img/habitacion2.jpeg";
             valorHabitacion = 250000;
             break;
         case "habitacion3":
+            imagen.src = "assets/img/habitacion3.jpeg";
             valorHabitacion = 300000;
             break;
         default:
+            imagen.src="assets/img/noimage.jpeg";
             alert("Por favor, seleccione una habitación.");
             valorHabitacion = 0;
     }
