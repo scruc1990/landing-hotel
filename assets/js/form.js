@@ -288,11 +288,4 @@ document.getElementById("numeroCelular").addEventListener("blur", function() {
 /* document.getElementById("calcularTotal").addEventListener("click", function() {
     calcularTotal();
 }); */
-/*carrousel button*/
-const carousel = document.querySelector(".cards");
-const slide = document.querySelector(".card");
 
-function handleCarouselMove(positive = true) {
-  const slideWidth = slide.clientWidth;
-  carousel.scrollLeft = positive ? carousel.scrollLeft + slideWidth : carousel.scrollLeft - slideWidth;
-}
